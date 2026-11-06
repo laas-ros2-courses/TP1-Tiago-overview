@@ -53,6 +53,7 @@
           "twist-mux"
           "moveit-ros-control-interface"
           "moveit-py"
+          "ros2interface"
         ];
       }
     );
