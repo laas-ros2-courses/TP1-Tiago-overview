@@ -1,4 +1,8 @@
-src/
+# ignore everything vendored into src/ via tiago.repos, keep our own packages
+src/*
+!src/tiago_go_to_point/
+!src/tiago_go_to_point_interfaces/
+
 build/
 install/
 log/
@@ -7,3 +11,7 @@ log/
 result
 result-*
 .direnv/
+
+# python
+__pycache__/
+*.pyc
