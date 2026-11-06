@@ -2,4 +2,8 @@ src/
 build/
 install/
 log/
+
+# nix
+result
+result-*
 .direnv/
