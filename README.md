@@ -23,11 +23,12 @@ Build the workspace:
 colcon build --symlink-install
 ```
 
-Source the workspace and the ROS environment variables (DDS domain/discovery range) in the current shell:
+Source the workspace in the current shell:
 ```bash
 source install/setup.bash
-source .env
 ```
+
+(The DDS domain ID and discovery range are already set by `.envrc` via direnv — see the root README.)
 
 From here on, everything below is the same as normal `tiago_harmonic` usage (see the [upstream README](https://github.com/Tiago-Harmonic/tiago_harmonic)).
 
